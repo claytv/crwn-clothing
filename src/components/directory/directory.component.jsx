@@ -1,6 +1,6 @@
-import CategoryItem from '../category-item/category-item.component';
+import CategoryItem from '../category-item/category-item.component'
 
-import './directory.styles.scss';
+import './directory.styles.scss'
 
 
 const Directory = ({categories}) => {
@@ -10,7 +10,7 @@ const Directory = ({categories}) => {
         <CategoryItem key={category.id} category={category} />
       ))}
     </div>
-    );
-};
+    )
+}
 
 export default Directory;
